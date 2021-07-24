@@ -29,6 +29,24 @@ public class TesteCompraLojaVirtual {
 		lojaPage.preencheEmail();
 		lojaPage.informarSenha();
 		lojaPage.clicarEmSubmeter();
+		lojaPage.clicarNaCategoriaMulheres();
+		lojaPage.adicionarItemCamisetasNoCarrinho();
+		lojaPage.clicarEmFazerCheckout();
+		lojaPage.alterarQtdItemNoCarrinho();
+		lojaPage.removerItemDoCarrinho();
+		lojaPage.clicarNoBotaoEntrar();
+		lojaPage.preencheEmail();
+		lojaPage.informarSenha();
+		lojaPage.clicarEmSubmeter();
+		lojaPage.clicarNaCategoriaMulheres();
+		lojaPage.adicionarItemCamisetasNoCarrinho();
+		lojaPage.clicarEmFazerCheckout();
+		lojaPage.clicarEmContinuarParaCheckout();
+		lojaPage.pagarPorBankWire();
+		lojaPage.confirmarMinhaCompra();
+		lojaPage.voltarParaVerificarMinhaCompra();
+		lojaPage.irParaHome();
+		lojaPage.sair();
 
     }
 	
